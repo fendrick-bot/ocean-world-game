@@ -12,6 +12,8 @@ export function GameCanvas() {
         ref={(canvas) => {
           if (canvas) {
             const experience = new Experience(canvas);
+            console.log(experience + "is ready to play");
+            
           }
         }}
         style={{ border: "1px solid black" }}
